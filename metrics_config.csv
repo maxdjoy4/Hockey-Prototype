@@ -1,0 +1,31 @@
+metric_id,metric_name,app_category,Category,Cluster,r_win,abs_r_win,coaching_adjustment,weight_pct,higher_is_better,include_in_score,anomaly_threshold_pct,dal_current_value,dal_dashboard_notes
+goals,Goals,Scoreboard,Outcome,Scoreboard,0.6606,0.6606,0.5,4.35,True,True,20,,"Included because user wants goals visible, but coaching adjustment caps its scoring influence."
+xg_conversion_rate,xG Conversion Rate,Offense,Offense,Finishing Quality,0.5203,0.5203,1.0,6.86,True,True,20,72.1%,3rd of 8 — Dal's only above-avg metric. Protect this.
+corsi_5_on_5_shot_share,CORSI% (5-on-5 Shot Share),Possession,Possession,Shot Share / Possession,0.3659,0.3659,1.0,4.82,True,True,20,44.7%,7th of 8 — out-possessed at 5-on-5 in most games
+scoring_chances,Scoring Chances,Offense,Offense,Offense Volume,0.3651,0.3651,1.0,4.81,True,True,20,14.0 / gm,7th of 8 — 3 below league avg (16.9)
+shots_on_goal,Shots on Goal,Offense,Offense,Offense Volume,0.3407,0.3407,1.0,4.49,True,True,20,24.2 / gm,7th of 8 — nearly 5 below league avg (28.9)
+net_xg_differential,Net xG Differential,Other,Off / Def,Overall Team Quality,0.3356,0.3356,1.0,4.42,True,True,20,−1.09 / gm,7th of 8 — only negative net xG outside Mt Allison
+total_shots_attempts,Total Shots (Attempts),Offense,Offense,Offense Volume,0.3046,0.3046,1.0,4.01,True,True,20,47.5 / gm,7th of 8 — low shot volume reflects possession deficit
+opponent_s_xg,Opponent's xG,Defense,Defense,Defensive Exposure,-0.2804,0.2804,1.0,3.69,False,True,20,3.83 / gm,7th of 8 — allowing +0.67 above league avg per game
+xg_for_expected_goals,xG For (Expected Goals),Offense,Offense,Offense Quality,0.2734,0.2734,1.0,3.6,True,True,20,2.74 / gm,7th of 8 — low volume drives this down
+successful_power_plays,Successful Power Plays,Special Teams,Special Teams,Special Teams,0.2654,0.2654,1.05,3.67,True,True,20,0.43 / gm,8th of 8 — lowest PP goals per game in AUS
+oz_play_zone_possession,OZ Play (Zone Possession),Possession,Possession,Shot Share / Possession,0.2585,0.2585,1.0,3.41,True,True,20,13.6 / gm,8th of 8 — minimal sustained OZ presence
+oz_play_with_shots,OZ Play with Shots,Possession,Possession,Shot Share / Possession,0.2513,0.2513,1.0,3.31,True,True,20,11.2 / gm,7th of 8 — linked to entry and possession deficit
+pp_season_wide,PP% (Season-Wide),Special Teams,Special Teams,Special Teams,0.2493,0.2493,1.05,3.45,True,True,20,12.4%,7th of 8 — 2.3pp below league avg. KEY GAP.
+total_zone_entries,Total Zone Entries,Transition,Transition,Transition,0.2442,0.2442,1.15,3.7,True,True,20,42.4 / gm,8th of 8 — fewest entries in league
+passes_to_the_slot,Passes to the Slot,Offense,Offense,Offense Quality,0.2278,0.2278,1.0,3.0,True,True,20,4.9 / gm,7th of 8 — rarely accessing highest-danger area
+ev_dz_retrievals,EV DZ Retrievals,Transition,Defense,Defensive Exposure,-0.2188,0.2188,1.15,3.32,False,True,20,13.3 / gm,7th of 8 — MORE is worse here. Spending too much EV time defending.
+ev_oz_retrievals,EV OZ Retrievals,Transition,Offense/Trans.,Transition,0.2107,0.2107,1.15,3.19,True,True,20,9.0 / gm,6th of 8 — not winning OZ puck battles enough
+missed_shots,Missed Shots,Offense,Offense,Offense Volume,0.2102,0.2102,0.85,2.35,True,True,20,23.3 / gm,7th of 8 — reflects overall shot volume deficit
+pk_season_wide,PK% (Season-Wide),Special Teams,Special Teams,Special Teams,0.2094,0.2094,1.05,2.9,True,True,20,85.3%,"6th of 8 — below avg, needs to reach 87%+"
+puck_losses_in_nz,Puck Losses in NZ,Puck Management,Puck Mgmt,Puck Management,-0.2042,0.2042,1.15,3.09,False,True,20,24.9 / gm,"5th of 8 — above average, compounding transition issues"
+entries_via_pass,Entries via Pass,Transition,Transition,Transition,0.1956,0.1956,1.15,2.96,True,True,20,11.5 / gm,6th of 8 — below avg controlled entries
+pre_shot_passes,Pre-Shot Passes,Offense,Offense,Offense Quality,0.1883,0.1883,1.0,2.48,True,True,20,7.5 / gm,7th of 8 — not setting up shots with pre-shot movement
+entries_via_dump_in,Entries via Dump-In,Transition,Transition,Transition,0.1807,0.1807,0.98,2.33,True,True,20,15.6 / gm,5th of 8 — about average
+accurate_pass,Accurate Pass %,Passing,Puck Mgmt,Puck Management,0.1764,0.1764,1.15,2.67,True,True,20,77.2%,8th of 8 — last in AUS. Feeds DZ puck loss problem.
+shot_accuracy,Shot Accuracy %,Offense,Offense,Offense Quality,0.1686,0.1686,1.0,2.22,True,True,20,51.1%,8th of 8 — last in AUS (51.1% vs avg 52.1%)
+puck_losses_in_dz,Puck Losses in DZ,Puck Management,Puck Mgmt,Puck Management,-0.163,0.163,1.15,2.47,False,True,20,17.5 / gm,8th of 8 — WORST in AUS. Master root cause.
+puck_battles_in_dz,Puck Battles in DZ,Defense,Defense,Defensive Exposure,-0.1546,0.1546,1.0,2.04,False,True,20,25.8 / gm,7th of 8 — too much time fighting loose pucks in own end
+puck_battles_won,Puck Battles Won %,Puck Management,Puck Mgmt,Puck Management,0.1543,0.1543,1.15,2.34,True,True,20,48.7%,7th of 8 — below average puck battle win rate
+slapshots,Slapshots,Offense,Offense,Offense Volume,0.1542,0.1542,0.85,1.73,True,True,20,5.1 / gm,7th of 8 — low blue-line activity
+accurate_passes_total,Accurate Passes (Total),Passing,Other,Puck Management,0.1515,0.1515,1.15,2.3,True,True,20,164.8 / gm,"7th of 8 — volume proxy, linked to possession deficit"
